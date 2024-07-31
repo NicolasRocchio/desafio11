@@ -1,8 +1,26 @@
-# React + Vite
+# Ejercicio con Props:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1.Tarjeta de Presentación:
+Crea un componente Tarjeta que reciba como props el nombre, profesión y una foto de una persona.
+Muestra estos datos de forma visualmente atractiva dentro del componente.
 
-Currently, two official plugins are available:
+# Ejercicio con Children:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Alerta Personalizada:
+   Crea un componente Alerta que reciba un tipo de alerta (success, warning, error) como prop.
+   Usa props.children para mostrar el contenido del mensaje dentro de la alerta, con estilos visuales acordes al tipo.
+
+# Ejercicio con Estado:
+
+3. Contador:
+   Crea un componente Contador que tenga un estado inicial de 0.
+   Agrega botones para incrementar y decrementar el valor del contador, actualizando el estado en cada clic.
+
+# Ejercicio Combinado:
+
+4. Formulario de Contacto:
+   Crea un formulario con campos para nombre, email y mensaje.
+   Usa el estado para almacenar los valores de los campos a medida que el usuario los completa.
+   Agrega un botón de envío que muestre los datos del formulario en una alerta (puedes usar el componente Alerta creado anteriormente).
+
+## link github: https://github.com/NicolasRocchio/desafio11
